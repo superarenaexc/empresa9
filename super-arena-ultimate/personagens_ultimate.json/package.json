@@ -1,0 +1,12 @@
+{
+  "name": "super-arena",
+  "version": "1.0.0",
+  "description": "Projeto Super Arena Ultimate",
+  "main": "pvp-server.js",
+  "scripts": {
+    "start": "node pvp-server.js"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
