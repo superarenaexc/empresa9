@@ -1,0 +1,33 @@
+.super-arena-ultimate {
+  font-family: 'Tahoma', sans-serif;
+  background: #000;
+  color: #fff;
+}
+
+.super-arena-ultimate h2 {
+  background: #ff8c00;
+  padding: 8px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.super-arena-ultimate .grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.super-arena-ultimate .personagem {
+  border: 2px solid #ff8c00;
+  background: #1a1a1a;
+  padding: 16px;
+  width: 260px;
+}
+
+.super-arena-ultimate .personagem h3 {
+  margin: -16px -16px 12px -16px;
+  background: #ff8c00;
+  padding: 8px;
+  font-size: 16px;
+  color: #fff;
+}

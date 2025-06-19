@@ -1,0 +1,1618 @@
+[
+  {
+    "nome": "Naruto Uzumaki",
+    "descricao": "Ninja determinado da Vila da Folha com a Raposa de Nove Caudas.",
+    "categoria": "Original",
+    "tags": ["folha", "jinchuriki"],
+    "habilidades": [
+      {"nome": "Rasengan", "descricao": "Causa dano em área.", "custo": ["chakra", "chakra"]},
+      {"nome": "Clone das Sombras", "descricao": "Confunde o inimigo.", "custo": ["chakra"]}
+    ]
+  },
+  {
+    "nome": "Sasuke Uchiha",
+    "descricao": "Rival de Naruto e sobrevivente do clã Uchiha.",
+    "categoria": "Original",
+    "tags": ["uchiha", "sharingan"],
+    "habilidades": [
+      {"nome": "Chidori", "descricao": "Ataque elétrico perfurante.", "custo": ["chakra", "chakra"]},
+      {"nome": "Sharingan", "descricao": "Evita um ataque inimigo.", "custo": ["chakra"]}
+    ]
+  },
+  {
+    "nome": "Sakura Haruno",
+    "descricao": "Ninja médica da equipe 7.",
+    "categoria": "Original",
+    "tags": ["cura", "taijutsu"],
+    "habilidades": [
+      {"nome": "Socão Curativo", "descricao": "Cura aliado e causa dano.", "custo": ["cura"]},
+      {"nome": "Palmada Severa", "descricao": "Dano físico em área.", "custo": ["chakra"]}
+    ]
+  },
+  {
+    "nome": "Rock Lee",
+    "descricao": "Especialista em taijutsu puro.",
+    "categoria": "Original",
+    "tags": ["folha", "taijutsu"],
+    "habilidades": [
+      {"nome": "Lótus Primária", "descricao": "Dano alto, mas leva dano também.", "custo": ["chakra"]},
+      {"nome": "Combo da Folha", "descricao": "Sequência de golpes rápidos.", "custo": ["cura"]}
+    ]
+  },
+  {
+    "nome": "Shikamaru Nara",
+    "descricao": "Gênio tático com sombra como arma.",
+    "categoria": "Original",
+    "tags": ["estratégia"],
+    "habilidades": [
+      {"nome": "Possessão das Sombras", "descricao": "Paralisa um inimigo.", "custo": ["chakra"]},
+      {"nome": "Plano Tático", "descricao": "Aumenta defesa do time.", "custo": ["chakra"]}
+    ]
+  }
+]
+,
+{
+  "nome": "Gaara",
+  "descricao": "Kazekage da Areia, controla areia com maestria.",
+  "categoria": "Shippuden",
+  "tags": ["areia", "defesa"],
+  "habilidades": [
+    {"nome": "Sepultamento de Areia", "descricao": "Enterra inimigo e paralisa.", "custo": ["chakra"]},
+    {"nome": "Escudo de Areia", "descricao": "Impede um ataque inimigo.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Neji Hyuga",
+  "descricao": "Gênio do clã Hyuga, domina o Byakugan.",
+  "categoria": "Shippuden",
+  "tags": ["byakugan", "taijutsu"],
+  "habilidades": [
+    {"nome": "Rotação Celestial", "descricao": "Defesa circular de chakra.", "custo": ["chakra"]},
+    {"nome": "Punhos Gentis", "descricao": "Dano direto ao chakra do inimigo.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Jiraiya",
+  "descricao": "Um dos três sannins lendários, mestre de Naruto.",
+  "categoria": "Shippuden",
+  "tags": ["sannin", "invocação"],
+  "habilidades": [
+    {"nome": "Sapo Invocado", "descricao": "Chama um sapo gigante para atacar.", "custo": ["chakra", "chakra"]},
+    {"nome": "Jutsu Erótico", "descricao": "Confunde o inimigo e cancela ação.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Yamato",
+  "descricao": "Usuário de Mokuton, controla madeira e selamento.",
+  "categoria": "Shippuden",
+  "tags": ["mokuton", "controle"],
+  "habilidades": [
+    {"nome": "Estilo Madeira", "descricao": "Prende e paralisa oponente.", "custo": ["chakra"]},
+    {"nome": "Supressor de Chakra", "descricao": "Reduz o ataque do inimigo.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Sai",
+  "descricao": "Ninja das Raízes, desenha para atacar.",
+  "categoria": "Shippuden",
+  "tags": ["tinta", "estratégia"],
+  "habilidades": [
+    {"nome": "Animais de Tinta", "descricao": "Invoca criaturas que atacam.", "custo": ["chakra"]},
+    {"nome": "Espada de Tinta", "descricao": "Causa corte preciso.", "custo": ["chakra"]}
+  ]
+}
+,
+{
+  "nome": "Itachi Uchiha",
+  "descricao": "Ex-membro do clã Uchiha e da Akatsuki. Mestre do Genjutsu.",
+  "categoria": "Akatsuki",
+  "tags": ["uchiha", "genjutsu"],
+  "habilidades": [
+    {"nome": "Tsukuyomi", "descricao": "Prende o inimigo em ilusão torturante.", "custo": ["chakra", "chakra"]},
+    {"nome": "Amaterasu", "descricao": "Chamas negras que não se apagam.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Kisame Hoshigaki",
+  "descricao": "Espadachim da Névoa, parceiro de Itachi.",
+  "categoria": "Akatsuki",
+  "tags": ["espada", "chakra"],
+  "habilidades": [
+    {"nome": "Samehada", "descricao": "Rouba chakra do inimigo.", "custo": ["chakra"]},
+    {"nome": "Prisão de Água", "descricao": "Envolve inimigo e o paralisa.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Deidara",
+  "descricao": "Artista explosivo que usa argila com chakra.",
+  "categoria": "Akatsuki",
+  "tags": ["explosão", "arte"],
+  "habilidades": [
+    {"nome": "C1 Argila", "descricao": "Pequenas criaturas explosivas.", "custo": ["chakra"]},
+    {"nome": "C4 Karura", "descricao": "Explosão massiva invisível.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Pain (Nagato)",
+  "descricao": "Líder da Akatsuki, controla os Seis Caminhos da Dor.",
+  "categoria": "Akatsuki",
+  "tags": ["rinnegan", "seis caminhos"],
+  "habilidades": [
+    {"nome": "Shinra Tensei", "descricao": "Repele todos os ataques.", "custo": ["chakra", "chakra"]},
+    {"nome": "Chibaku Tensei", "descricao": "Cria núcleo gravitacional destrutivo.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Konan",
+  "descricao": "Ninja do papel, braço direito de Nagato.",
+  "categoria": "Akatsuki",
+  "tags": ["papel", "estratégia"],
+  "habilidades": [
+    {"nome": "Dança de Papel", "descricao": "Lâminas de papel que cortam tudo.", "custo": ["chakra"]},
+    {"nome": "Explosão dos 600 Bilhões de Papéis", "descricao": "Ataque suicida massivo.", "custo": ["chakra", "chakra"]}
+  ]
+}
+,
+{
+  "nome": "Hiruzen Sarutobi",
+  "descricao": "O terceiro Hokage, mestre dos cinco elementos.",
+  "categoria": "Reanimated",
+  "tags": ["hokage", "elemental"],
+  "habilidades": [
+    {"nome": "Katon: Bola de Fogo", "descricao": "Ataque com chamas.", "custo": ["chakra"]},
+    {"nome": "Selamento Supremo", "descricao": "Técnica de sacrifício contra inimigo.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Hashirama Senju",
+  "descricao": "O Primeiro Hokage, mestre do Mokuton.",
+  "categoria": "Reanimated",
+  "tags": ["hokage", "mokuton"],
+  "habilidades": [
+    {"nome": "Floresta Profunda", "descricao": "Prende todos os inimigos.", "custo": ["chakra", "chakra"]},
+    {"nome": "Células Regenerativas", "descricao": "Cura extrema.", "custo": ["cura"]}
+  ]
+},
+{
+  "nome": "Tobirama Senju",
+  "descricao": "O Segundo Hokage, inventor de jutsus perigosos.",
+  "categoria": "Reanimated",
+  "tags": ["hokage", "água"],
+  "habilidades": [
+    {"nome": "Clone de Água", "descricao": "Cria cópia para defender.", "custo": ["chakra"]},
+    {"nome": "Explosão do Deus Voador", "descricao": "Ataque veloz surpresa.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Madara Uchiha",
+  "descricao": "Lendário Uchiha revivido com Rinnegan e Mokuton.",
+  "categoria": "Reanimated",
+  "tags": ["uchiha", "rinnegan", "mokuton"],
+  "habilidades": [
+    {"nome": "Susanoo Perfeito", "descricao": "Defesa e ataque supremo.", "custo": ["chakra", "chakra"]},
+    {"nome": "Meteoros", "descricao": "Dano massivo em área.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Minato Namikaze",
+  "descricao": "O relâmpago amarelo da folha, pai de Naruto.",
+  "categoria": "Reanimated",
+  "tags": ["hokage", "velocidade"],
+  "habilidades": [
+    {"nome": "Hiraishin", "descricao": "Teleporta e ataca surpresa.", "custo": ["chakra"]},
+    {"nome": "Modo Kurama", "descricao": "Buff completo em si mesmo.", "custo": ["chakra", "chakra"]}
+  ]
+}
+,
+{
+  "nome": "Killer Bee",
+  "descricao": "Portador do Hachibi e rapper ninja da Vila da Nuvem.",
+  "categoria": "Jinchuuriki",
+  "tags": ["hachibi", "espada", "rima"],
+  "habilidades": [
+    {"nome": "Modo Hachibi", "descricao": "Transforma-se em Bijuu.", "custo": ["chakra", "chakra"]},
+    {"nome": "Lâminas de 7 Estilos", "descricao": "Ataques com várias espadas.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Yugito Nii",
+  "descricao": "Portadora do Nibi, mestra em fogo azul felino.",
+  "categoria": "Jinchuuriki",
+  "tags": ["nibi", "fogo"],
+  "habilidades": [
+    {"nome": "Explosão Felina", "descricao": "Ataque de fogo azul.", "custo": ["chakra"]},
+    {"nome": "Modo Nibi", "descricao": "Transformação parcial felina.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Roshi",
+  "descricao": "Portador do Yonbi, domina o estilo lava.",
+  "categoria": "Jinchuuriki",
+  "tags": ["lava", "bijuu"],
+  "habilidades": [
+    {"nome": "Punho de Lava", "descricao": "Dano de contato devastador.", "custo": ["chakra"]},
+    {"nome": "Explosão Vulcânica", "descricao": "Área em erupção.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Utakata",
+  "descricao": "Portador do Rokubi, especialista em bolhas explosivas.",
+  "categoria": "Jinchuuriki",
+  "tags": ["rokubi", "bolhas"],
+  "habilidades": [
+    {"nome": "Bolhas de Chakra", "descricao": "Explosões flutuantes.", "custo": ["chakra"]},
+    {"nome": "Prisão de Bolha", "descricao": "Trava o inimigo em bolha gigante.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Fuu",
+  "descricao": "Portadora do Nanabi, ninja veloz com asas de inseto.",
+  "categoria": "Jinchuuriki",
+  "tags": ["nanabi", "voo"],
+  "habilidades": [
+    {"nome": "Voo Rasante", "descricao": "Investida aérea rápida.", "custo": ["chakra"]},
+    {"nome": "Explosão Inseto", "descricao": "Insetos detonam em área.", "custo": ["chakra"]}
+  ]
+}
+,
+{
+  "nome": "Kakashi Hatake",
+  "descricao": "O Ninja Copiador, mestre do Sharingan.",
+  "categoria": "Lendário",
+  "tags": ["sharingan", "konoha", "raikiri"],
+  "habilidades": [
+    {"nome": "Raikiri", "descricao": "Ataque elétrico perfurante.", "custo": ["chakra"]},
+    {"nome": "Kamui", "descricao": "Teleporta alvo para outra dimensão.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Might Guy",
+  "descricao": "Especialista em taijutsu, rival de Kakashi.",
+  "categoria": "Lendário",
+  "tags": ["taijutsu", "portões"],
+  "habilidades": [
+    {"nome": "Abertura do 7º Portão", "descricao": "Aumenta força drasticamente.", "custo": ["cura"]},
+    {"nome": "Ponte Noturna", "descricao": "Golpe extremo com sacrifício.", "custo": ["cura", "chakra"]}
+  ]
+},
+{
+  "nome": "Asuma Sarutobi",
+  "descricao": "Jonin e mestre da equipe 10.",
+  "categoria": "Clássico",
+  "tags": ["fumaça", "espadas"],
+  "habilidades": [
+    {"nome": "Lâminas de Chakra", "descricao": "Ataques cortantes de precisão.", "custo": ["chakra"]},
+    {"nome": "Estilo Vento: Corte", "descricao": "Dano em linha reta.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Kurenai Yuhi",
+  "descricao": "Especialista em Genjutsu, esposa de Asuma.",
+  "categoria": "Clássico",
+  "tags": ["genjutsu", "ilusão"],
+  "habilidades": [
+    {"nome": "Visão Ilusória", "descricao": "Cancela ação do inimigo.", "custo": ["chakra"]},
+    {"nome": "Grito Mental", "descricao": "Confunde todos os oponentes.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Iruka Umino",
+  "descricao": "Professor da Academia Ninja e mentor de Naruto.",
+  "categoria": "Clássico",
+  "tags": ["apoio", "defesa"],
+  "habilidades": [
+    {"nome": "Proteção do Sensei", "descricao": "Defende aliado do próximo ataque.", "custo": ["cura"]},
+    {"nome": "Palestra Motivacional", "descricao": "Aumenta ataque da equipe.", "custo": ["chakra"]}
+  ]
+}
+,
+{
+  "nome": "Tsunade",
+  "descricao": "A quinta Hokage e ninja médica lendária.",
+  "categoria": "Kage",
+  "tags": ["cura", "força"],
+  "habilidades": [
+    {"nome": "Força Monstruosa", "descricao": "Soco com força esmagadora.", "custo": ["cura"]},
+    {"nome": "Regeneração Mítica", "descricao": "Cura total instantânea.", "custo": ["chakra", "cura"]}
+  ]
+},
+{
+  "nome": "A (Quarto Raikage)",
+  "descricao": "Líder da Vila da Nuvem, mestre em velocidade.",
+  "categoria": "Kage",
+  "tags": ["velocidade", "raio"],
+  "habilidades": [
+    {"nome": "Manto de Relâmpago", "descricao": "Aumenta defesa e ataque.", "custo": ["chakra", "chakra"]},
+    {"nome": "Bombardeio Elétrico", "descricao": "Investida poderosa.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Mei Terumi",
+  "descricao": "Mizukage com controle de lava e ácido.",
+  "categoria": "Kage",
+  "tags": ["lava", "ácido"],
+  "habilidades": [
+    {"nome": "Névoa Ácida", "descricao": "Dano contínuo em área.", "custo": ["chakra"]},
+    {"nome": "Estilo Lava: Derretimento", "descricao": "Ataque devastador com lava líquida.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Onoki",
+  "descricao": "O velho Tsuchikage, mestre do Jinton.",
+  "categoria": "Kage",
+  "tags": ["jinton", "gravidade"],
+  "habilidades": [
+    {"nome": "Liberação de Poeira", "descricao": "Desintegra matéria.", "custo": ["chakra", "chakra"]},
+    {"nome": "Leveza Pesada", "descricao": "Controla gravidade dos corpos.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Gaara (Shippuden)",
+  "descricao": "Kazekage e Jinchuuriki do Shukaku, versão madura.",
+  "categoria": "Kage",
+  "tags": ["areia", "defesa"],
+  "habilidades": [
+    {"nome": "Cúpula de Areia", "descricao": "Barreira completa contra dano.", "custo": ["chakra"]},
+    {"nome": "Túmulo de Areia", "descricao": "Enterra e paralisa inimigo.", "custo": ["chakra", "chakra"]}
+  ]
+}
+,
+{
+  "nome": "Boruto Uzumaki",
+  "descricao": "Filho de Naruto, herdeiro do Rasengan com o Jougan.",
+  "categoria": "Nova Geração",
+  "tags": ["jougan", "rasengan"],
+  "habilidades": [
+    {"nome": "Rasengan Desvanecente", "descricao": "Fica invisível e acerta de surpresa.", "custo": ["chakra"]},
+    {"nome": "Karma Ativo", "descricao": "Buff completo temporário.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Sarada Uchiha",
+  "descricao": "Filha de Sasuke e Sakura, possui Sharingan e força.",
+  "categoria": "Nova Geração",
+  "tags": ["sharingan", "força"],
+  "habilidades": [
+    {"nome": "Olhar Cortante", "descricao": "Anula técnica do inimigo.", "custo": ["chakra"]},
+    {"nome": "Soco Hereditário", "descricao": "Força brutal, estilo Tsunade.", "costo": ["cura"]}
+  ]
+},
+{
+  "nome": "Mitsuki",
+  "descricao": "Clone do Orochimaru, usuário do Modo Sábio.",
+  "categoria": "Nova Geração",
+  "tags": ["modo sábio", "cobra"],
+  "habilidades": [
+    {"nome": "Serpente de Chakra", "descricao": "Prende o inimigo com cobras.", "custo": ["chakra"]},
+    {"nome": "Modo Sábio", "descricao": "Transforma-se e ganha velocidade.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Kawaki",
+  "descricao": "Portador de Karma rival de Boruto, possui corpo modificado.",
+  "categoria": "Nova Geração",
+  "tags": ["karma", "nanotecnologia"],
+  "habilidades": [
+    {"nome": "Braço Expandido", "descricao": "Ataque surpresa à distância.", "custo": ["chakra"]},
+    {"nome": "Karma Total", "descricao": "Transformação de destruição massiva.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Shinki",
+  "descricao": "Filho adotivo de Gaara, controla ferro com areia magnética.",
+  "categoria": "Nova Geração",
+  "tags": ["ferro", "areia"],
+  "habilidades": [
+    {"nome": "Ferros Cortantes", "descricao": "Ataque perfurante contínuo.", "custo": ["chakra"]},
+    {"nome": "Escudo de Areia Magnética", "descricao": "Barreira metálica impenetrável.", "custo": ["chakra"]}
+  ]
+}
+,
+{
+  "nome": "Ten Ten",
+  "descricao": "Especialista em armas e invocação de pergaminhos.",
+  "categoria": "Clássico",
+  "tags": ["armas", "precisão"],
+  "habilidades": [
+    {"nome": "Chuva de Armas", "descricao": "Ataque em área com centenas de armas.", "custo": ["chakra"]},
+    {"nome": "Kusarigama", "descricao": "Armadilha com corrente dupla.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Ino Yamanaka",
+  "descricao": "Ninja sensorial, usuária da técnica de transferência de mente.",
+  "categoria": "Clássico",
+  "tags": ["sensorial", "controle"],
+  "habilidades": [
+    {"nome": "Transferência de Mente", "descricao": "Controla o corpo inimigo por um turno.", "custo": ["chakra"]},
+    {"nome": "Cura Básica", "descricao": "Recupera um aliado.", "custo": ["cura"]}
+  ]
+},
+{
+  "nome": "Kiba Inuzuka",
+  "descricao": "Ninja com habilidades caninas e parceria com Akamaru.",
+  "categoria": "Clássico",
+  "tags": ["cão", "taijutsu"],
+  "habilidades": [
+    {"nome": "Garras Giratórias", "descricao": "Ataque em espiral com Akamaru.", "custo": ["chakra"]},
+    {"nome": "Marcação de Presa", "descricao": "Aumenta dano dos próximos golpes.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Choji Akimichi",
+  "descricao": "Ninja de grande porte com técnicas de expansão.",
+  "categoria": "Clássico",
+  "tags": ["expansão", "força"],
+  "habilidades": [
+    {"nome": "Bola Humana", "descricao": "Rola esmagando tudo no caminho.", "custo": ["chakra"]},
+    {"nome": "Pílula Vermelha", "descricao": "Aumenta muito seu dano (com risco).", "custo": ["chakra", "cura"]}
+  ]
+},
+{
+  "nome": "Hinata Hyuga",
+  "descricao": "Usuária do Byakugan e do Estilo Punhos Gentis.",
+  "categoria": "Clássico",
+  "tags": ["byakugan", "defesa"],
+  "habilidades": [
+    {"nome": "Palmas Suaves", "descricao": "Reduz chakra do inimigo.", "custo": ["chakra"]},
+    {"nome": "Campo de Defesa", "descricao": "Cria barreira com mãos rápidas.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Anko Mitarashi",
+  "descricao": "Ex-anbu e usuária do selo amaldiçoado.",
+  "categoria": "Clássico",
+  "tags": ["cobra", "selamento"],
+  "habilidades": [
+    {"nome": "Chuva de Cobras", "descricao": "Invoca cobras para atacar.", "custo": ["chakra"]},
+    {"nome": "Selo Ativado", "descricao": "Potencializa ataques com risco à vida.", "custo": ["chakra", "cura"]}
+  ]
+},
+{
+  "nome": "Kankuro",
+  "descricao": "Marionetista da Areia, mestre em armadilhas.",
+  "categoria": "Clássico",
+  "tags": ["boneco", "armadilha"],
+  "habilidades": [
+    {"nome": "Armadilha de Corvos", "descricao": "Boneco explode em veneno.", "custo": ["chakra"]},
+    {"nome": "Kuroari", "descricao": "Boneco-prisão que finaliza inimigos presos.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Temari",
+  "descricao": "Usuária do leque gigante e ataques de vento cortante.",
+  "categoria": "Clássico",
+  "tags": ["vento", "controle"],
+  "habilidades": [
+    {"nome": "Dança da Foice", "descricao": "Rajada cortante em todos os inimigos.", "custo": ["chakra"]},
+    {"nome": "Ataque de Longo Alcance", "descricao": "Ataca alvos distantes com precisão.", "costo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Zabuza Momochi",
+  "descricao": "Ex-espadachim da Névoa Oculta, usuário da Névoa Mortal.",
+  "categoria": "Especial",
+  "tags": ["nevoa", "espada"],
+  "habilidades": [
+    {"nome": "Névoa Silenciosa", "descricao": "Fica invisível por um turno.", "custo": ["chakra"]},
+    {"nome": "Corte Assassino", "descricao": "Ataque letal surpresa.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Haku",
+  "descricao": "Companheiro de Zabuza, usa espelhos de gelo.",
+  "categoria": "Especial",
+  "tags": ["gelo", "agilidade"],
+  "habilidades": [
+    {"nome": "Espelhos de Gelo", "descricao": "Ataques múltiplos com agilidade.", "custo": ["chakra", "chakra"]},
+    {"nome": "Agulhas de Gelo", "descricao": "Paralisa um inimigo com precisão.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Kimimaro",
+  "descricao": "Último do clã Kaguya, usuário do Shikotsumyaku.",
+  "categoria": "Especial",
+  "tags": ["ossos", "resistência"],
+  "habilidades": [
+    {"nome": "Dança dos Ossos", "descricao": "Ataque com ossos de dentro do corpo.", "custo": ["chakra"]},
+    {"nome": "Defesa Perfeita", "descricao": "Repele ataque com armadura óssea.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Jirobo",
+  "descricao": "Membro do Quarteto do Som, usuário de terra e força bruta.",
+  "categoria": "Especial",
+  "tags": ["terra", "defesa"],
+  "habilidades": [
+    {"nome": "Domínio da Terra", "descricao": "Cava prisão de rochas.", "custo": ["chakra"]},
+    {"nome": "Selo Amaldiçoado Nível 1", "descricao": "Aumenta dano com custo de vida.", "custo": ["chakra", "cura"]}
+  ]
+},
+{
+  "nome": "Kidomaru",
+  "descricao": "Aracnídeo humano com ataques de teia e precisão.",
+  "categoria": "Especial",
+  "tags": ["teia", "estratégia"],
+  "habilidades": [
+    {"nome": "Armadilha de Teia", "descricao": "Paralisa e revela fraquezas.", "custo": ["chakra"]},
+    {"nome": "Flecha Dourada", "descricao": "Ataque com precisão mortal.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Tayuya",
+  "descricao": "Usuária de Genjutsu com flauta demoníaca.",
+  "categoria": "Especial",
+  "tags": ["genjutsu", "invocação"],
+  "habilidades": [
+    {"nome": "Melodia Maldita", "descricao": "Confunde todos os inimigos.", "custo": ["chakra"]},
+    {"nome": "Demoníacos Doki", "descricao": "Invoca monstros gigantes.", "custo": ["chakra", "chakra"]}
+  ]
+}
+,
+{
+  "nome": "Sakon & Ukon",
+  "descricao": "Irmãos siameses que atacam em dupla, parte do Quarteto do Som.",
+  "categoria": "Especial",
+  "tags": ["dupla", "maldição"],
+  "habilidades": [
+    {"nome": "Fusão Corporal", "descricao": "Invade o corpo do inimigo e causa dano contínuo.", "custo": ["chakra"]},
+    {"nome": "Selo Amaldiçoado", "descricao": "Ativa poder oculto, com custo de vida.", "custo": ["chakra", "cura"]}
+  ]
+},
+{
+  "nome": "Karin Uzumaki",
+  "descricao": "Sensorial do grupo Taka, com habilidades curativas.",
+  "categoria": "Shippuden",
+  "tags": ["sensorial", "cura"],
+  "habilidades": [
+    {"nome": "Sensor de Chakra", "descricao": "Detecta inimigos e suas ações.", "custo": ["chakra"]},
+    {"nome": "Mordida Curativa", "descricao": "Cura aliados ao ser mordida.", "custo": ["cura"]}
+  ]
+},
+{
+  "nome": "Suigetsu Hozuki",
+  "descricao": "Espadachim do grupo Taka com corpo de água.",
+  "categoria": "Shippuden",
+  "tags": ["água", "espada"],
+  "habilidades": [
+    {"nome": "Espada Kubikiribocho", "descricao": "Ataque de corte devastador.", "custo": ["chakra"]},
+    {"nome": "Liquefação", "descricao": "Evita dano transformando-se em água.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Jugo",
+  "descricao": "Portador do poder natural, com transformação berserker.",
+  "categoria": "Shippuden",
+  "tags": ["natural", "fúria"],
+  "habilidades": [
+    {"nome": "Impulso Selvagem", "descricao": "Explosão de força bruta incontrolável.", "custo": ["chakra", "cura"]},
+    {"nome": "Canalizar Natureza", "descricao": "Regenera parte da vida ao absorver energia.", "custo": ["cura"]}
+  ]
+},
+{
+  "nome": "Guren",
+  "descricao": "Usuária da Liberação de Cristal, aliada de Orochimaru.",
+  "categoria": "Shippuden",
+  "tags": ["cristal", "orochimaru"],
+  "habilidades": [
+    {"nome": "Espinhos de Cristal", "descricao": "Ataca com lâminas cristalinas.", "custo": ["chakra"]},
+    {"nome": "Cúpula de Cristal", "descricao": "Prende inimigos dentro de uma gaiola indestrutível.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Hidan",
+  "descricao": "Imortal da Akatsuki, seguidor de Jashin.",
+  "categoria": "Akatsuki",
+  "tags": ["maldição", "sangue"],
+  "habilidades": [
+    {"nome": "Ritual de Jashin", "descricao": "Conecta vida com a da vítima, causando dano reverso.", "custo": ["chakra", "cura"]},
+    {"nome": "Foice Tripla", "descricao": "Ataque múltiplo com sangue.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Kakuzu",
+  "descricao": "Parceiro de Hidan com múltiplos corações.",
+  "categoria": "Akatsuki",
+  "tags": ["corações", "elemental"],
+  "habilidades": [
+    {"nome": "Costuras Vivas", "descricao": "Ataque que prende e causa dano.", "custo": ["chakra"]},
+    {"nome": "Elementos Ocultos", "descricao": "Libera múltiplos ataques elementais.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Sasori",
+  "descricao": "Marionetista da Areia Vermelha, corpo inteiro de marionete.",
+  "categoria": "Akatsuki",
+  "tags": ["veneno", "boneco"],
+  "habilidades": [
+    {"nome": "Marionete Hiruko", "descricao": "Cobre-se com escudo e lança agulhas.", "custo": ["chakra"]},
+    {"nome": "Corpo de Títere", "descricao": "Libera veneno ao ser atingido.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Zetsu",
+  "descricao": "Espião da Akatsuki com personalidade dupla.",
+  "categoria": "Akatsuki",
+  "tags": ["planta", "camuflagem"],
+  "habilidades": [
+    {"nome": "Mimetismo", "descricao": "Fica invisível e espreita o inimigo.", "custo": ["chakra"]},
+    {"nome": "Devorar Cadáveres", "descricao": "Absorve energia de um inimigo derrotado.", "custo": ["cura"]}
+  ]
+},
+{
+  "nome": "Obito Uchiha",
+  "descricao": "Usuário do Kamui, mascarado como Tobi.",
+  "categoria": "Shippuden",
+  "tags": ["sharingan", "dimensão"],
+  "habilidades": [
+    {"nome": "Kamui Intangível", "descricao": "Evita todos os danos por 1 turno.", "custo": ["chakra", "chakra"]},
+    {"nome": "Espaço-Tempo", "descricao": "Teleporta inimigo e interrompe ação.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Danzo Shimura",
+  "descricao": "Líder da Raiz, manipulador do Izanagi.",
+  "categoria": "Shippuden",
+  "tags": ["izanagi", "controle"],
+  "habilidades": [
+    {"nome": "Izanagi", "descricao": "Evita a morte ao custo de um olho Sharingan.", "custo": ["chakra"]},
+    {"nome": "Fūinjutsu", "descricao": "Sela o inimigo após sua morte.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Yamato (modo Hashirama)",
+  "descricao": "Controlador do Estilo Madeira e espião de Orochimaru.",
+  "categoria": "Shippuden",
+  "tags": ["madeira", "controle"],
+  "habilidades": [
+    {"nome": "Domínio da Floresta", "descricao": "Prende todos os inimigos com raízes.", "custo": ["chakra", "chakra"]},
+    {"nome": "Prisão de Madeira", "descricao": "Sela técnicas de invocação.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Shisui Uchiha",
+  "descricao": "Uchiha lendário com o genjutsu mais poderoso.",
+  "categoria": "Lendário",
+  "tags": ["sharingan", "controle"],
+  "habilidades": [
+    {"nome": "Kotoamatsukami", "descricao": "Controla a mente sem que o alvo perceba.", "custo": ["chakra", "chakra"]},
+    {"nome": "Movimento Instantâneo", "descricao": "Evade qualquer técnica por 1 turno.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Rin Nohara",
+  "descricao": "Ninja médica e companheira de Kakashi e Obito.",
+  "categoria": "Clássico",
+  "tags": ["cura", "suporte"],
+  "habilidades": [
+    {"nome": "Cura Avançada", "descricao": "Recupera vida de todos os aliados.", "custo": ["cura", "chakra"]},
+    {"nome": "Selo da Besta", "descricao": "Autoexplosão para conter o inimigo.", "custo": ["chakra", "cura"]}
+  ]
+},
+{
+  "nome": "Kushina Uzumaki",
+  "descricao": "Mãe de Naruto, usuária das Correntes do Selamento.",
+  "categoria": "Lendário",
+  "tags": ["selamento", "chakra"],
+  "habilidades": [
+    {"nome": "Correntes de Chakra", "descricao": "Imobiliza qualquer inimigo por 2 turnos.", "custo": ["chakra", "chakra"]},
+    {"nome": "Proteção Materna", "descricao": "Previne dano fatal ao filho.", "custo": ["cura"]}
+  ]
+}
+,
+{
+  "nome": "Asuma Sarutobi",
+  "descricao": "Jonin de Konoha, mestre do time 10 e usuário de chakra elemental.",
+  "categoria": "Clássico",
+  "tags": ["fogo", "lâmina"],
+  "habilidades": [
+    {"nome": "Lâminas de Chakra", "descricao": "Aumenta o poder de ataque com chakra elemental.", "custo": ["chakra"]},
+    {"nome": "Estilo Fogo: Projétil de Cinzas", "descricao": "Explosão incinerante à distância.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Kurenai Yuhi",
+  "descricao": "Especialista em Genjutsu, sensei do time 8.",
+  "categoria": "Clássico",
+  "tags": ["genjutsu", "controle"],
+  "habilidades": [
+    {"nome": "Genjutsu: Visão Distorcida", "descricao": "Confunde inimigos com ilusão realista.", "custo": ["chakra"]},
+    {"nome": "Paralisia Visual", "descricao": "Impede ações por um turno.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Konohamaru",
+  "descricao": "Discípulo de Naruto, domina técnicas de alto nível.",
+  "categoria": "Shippuden",
+  "tags": ["rasengan", "clone"],
+  "habilidades": [
+    {"nome": "Rasengan Aprimorado", "descricao": "Versão concentrada do Rasengan de Naruto.", "custo": ["chakra"]},
+    {"nome": "Estilo Fogo: Grande Bola de Fogo", "descricao": "Ataque em área com fogo intenso.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Moegi Kazamatsuri",
+  "descricao": "Usuária de Liberação de Terra e membro da nova geração.",
+  "categoria": "Boruto",
+  "tags": ["terra", "suporte"],
+  "habilidades": [
+    {"nome": "Pilares de Terra", "descricao": "Cria proteção para aliados.", "custo": ["chakra"]},
+    {"nome": "Resistência Rochosa", "descricao": "Reduz dano recebido por 2 turnos.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Udon Ise",
+  "descricao": "Líder da equipe 5, usa técnicas de muco.",
+  "categoria": "Boruto",
+  "tags": ["suporte", "controle"],
+  "habilidades": [
+    {"nome": "Jato Pegajoso", "descricao": "Paralisa e retarda movimentos inimigos.", "custo": ["chakra"]},
+    {"nome": "Barreira de Muco", "descricao": "Defesa parcial contra ataques físicos.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Anbu de Konoha",
+  "descricao": "Elite ninja da Folha, especialistas em assassinato e espionagem.",
+  "categoria": "Especial",
+  "tags": ["camuflagem", "precisão"],
+  "habilidades": [
+    {"nome": "Assassinato Silencioso", "descricao": "Dano dobrado se estiver invisível.", "custo": ["chakra"]},
+    {"nome": "Camuflagem", "descricao": "Evita ser alvo direto por 1 turno.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Genma Shiranui",
+  "descricao": "Ninja rápido de elite, usa senbons com maestria.",
+  "categoria": "Clássico",
+  "tags": ["senbon", "agilidade"],
+  "habilidades": [
+    {"nome": "Senbon Fatal", "descricao": "Atira senbon nos pontos vitais do inimigo.", "custo": ["chakra"]},
+    {"nome": "Movimento Rápido", "descricao": "Garante prioridade no próximo turno.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Hayate Gekko",
+  "descricao": "Jounin examindador e mestre da Espada de Sopro.",
+  "categoria": "Clássico",
+  "tags": ["espada", "precisão"],
+  "habilidades": [
+    {"nome": "Dança da Névoa", "descricao": "Ataque furtivo múltiplo.", "custo": ["chakra"]},
+    {"nome": "Explosão de Corte", "descricao": "Ataque frontal veloz com espada.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Hiruzen Sarutobi (Edo)",
+  "descricao": "Terceiro Hokage ressuscitado com domínio de múltiplos elementos.",
+  "categoria": "Reanimated",
+  "tags": ["elemental", "kage"],
+  "habilidades": [
+    {"nome": "Estilo Fogo: Chamas do Dragão", "descricao": "Rajada de fogo imensa.", "custo": ["chakra"]},
+    {"nome": "Clones Elementais", "descricao": "Cria 3 clones com habilidades diferentes.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Tobirama Senju (Edo)",
+  "descricao": "Segundo Hokage com domínio sobre jutsus de água e espaço-tempo.",
+  "categoria": "Reanimated",
+  "tags": ["água", "teletransporte"],
+  "habilidades": [
+    {"nome": "Estilo Água: Espada de Corrente", "descricao": "Ataque de corte com água em alta pressão.", "custo": ["chakra"]},
+    {"nome": "Jutsu do Deus Voador", "descricao": "Muda de posição instantaneamente.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Hashirama Senju (Edo)",
+  "descricao": "Primeiro Hokage e mestre do Estilo Madeira.",
+  "categoria": "Reanimated",
+  "tags": ["madeira", "kage"],
+  "habilidades": [
+    {"nome": "Floresta Profunda", "descricao": "Ataca todos os inimigos com raízes gigantes.", "custo": ["chakra", "chakra"]},
+    {"nome": "Regeneração Celular", "descricao": "Cura gradual ao longo de 3 turnos.", "custo": ["cura"]}
+  ]
+},
+{
+  "nome": "Itachi Uchiha (Edo)",
+  "descricao": "Versão revivida de Itachi, com Tsukuyomi e Amaterasu.",
+  "categoria": "Reanimated",
+  "tags": ["sharingan", "edo"],
+  "habilidades": [
+    {"nome": "Tsukuyomi", "descricao": "Coloca o inimigo num genjutsu de tortura.", "custo": ["chakra"]},
+    {"nome": "Amaterasu", "descricao": "Fogo negro que causa dano contínuo.", "custo": ["chakra", "chakra"]}
+  ]
+}
+,
+{
+  "nome": "Nagato (Edo)",
+  "descricao": "Portador do Rinnegan reanimado, com domínio total de técnicas dos Seis Caminhos.",
+  "categoria": "Reanimated",
+  "tags": ["rinnegan", "edo"],
+  "habilidades": [
+    {"nome": "Chibaku Tensei", "descricao": "Prende o inimigo em esfera gravitacional.", "custo": ["chakra", "chakra"]},
+    {"nome": "Absorção de Técnica", "descricao": "Anula jutsu inimigo e recupera chakra.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Deidara (Edo)",
+  "descricao": "Artista explosivo da Akatsuki, com acesso às técnicas C3 e C4.",
+  "categoria": "Reanimated",
+  "tags": ["explosão", "arte"],
+  "habilidades": [
+    {"nome": "C3 Gigante", "descricao": "Explosão em área massiva.", "custo": ["chakra", "chakra"]},
+    {"nome": "Mini-Clones C1", "descricao": "Clones explosivos pequenos e rápidos.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Kisame Hoshigaki",
+  "descricao": "Monstro da Névoa, parceiro de Itachi com Samehada.",
+  "categoria": "Akatsuki",
+  "tags": ["água", "absorção"],
+  "habilidades": [
+    {"nome": "Prisão Aquática", "descricao": "Envolve inimigo em uma cúpula de água.", "custo": ["chakra"]},
+    {"nome": "Samehada Viva", "descricao": "Rouba chakra do inimigo ao atacar.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Konan",
+  "descricao": "Usuária do Estilo Papel, ex-Akatsuki e discípula de Jiraiya.",
+  "categoria": "Akatsuki",
+  "tags": ["papel", "estratégia"],
+  "habilidades": [
+    {"nome": "Dança de Papel", "descricao": "Ataque leve e evasivo com milhares de lâminas.", "custo": ["chakra"]},
+    {"nome": "Explosão de Papel", "descricao": "Fusão de jutsu com explosivos para dano massivo.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Sai (Raiz)",
+  "descricao": "Versão ANBU de Sai, com jutsus ocultos.",
+  "categoria": "Especial",
+  "tags": ["desenho", "espionagem"],
+  "habilidades": [
+    {"nome": "Tinta Camaleão", "descricao": "Fica invisível por 1 turno.", "custo": ["chakra"]},
+    {"nome": "Dragão de Tinta", "descricao": "Ataque ofensivo com criatura invocada.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Mei Terumi",
+  "descricao": "Quinta Mizukage, mestra em jutsus de Lava e Vapor.",
+  "categoria": "Kage",
+  "tags": ["lava", "vapor"],
+  "habilidades": [
+    {"nome": "Estilo Lava: Ácido", "descricao": "Dano contínuo em área.", "custo": ["chakra"]},
+    {"nome": "Névoa de Vapor", "descricao": "Cria área que derrete armaduras.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Chojuro",
+  "descricao": "Espadachim da Névoa e Mizukage na era Boruto.",
+  "categoria": "Boruto",
+  "tags": ["espada", "nevoa"],
+  "habilidades": [
+    {"nome": "Espada Hiramekarei", "descricao": "Golpe energético com dano extra.", "custo": ["chakra"]},
+    {"nome": "Reflexo da Névoa", "descricao": "Esquiva rápida com contra-ataque.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Darui",
+  "descricao": "Raikage na era Boruto, mestre dos Estilos Tempestade e Relâmpago.",
+  "categoria": "Boruto",
+  "tags": ["relâmpago", "estratégia"],
+  "habilidades": [
+    {"nome": "Estilo Tempestade", "descricao": "Ataque elétrico controlado em curva.", "custo": ["chakra"]},
+    {"nome": "Raio Negro", "descricao": "Versão única do Chidori com impacto brutal.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Omoi",
+  "descricao": "Chunin da Vila da Nuvem, usuário de espada e distrações.",
+  "categoria": "Shippuden",
+  "tags": ["espada", "tática"],
+  "habilidades": [
+    {"nome": "Ilusão de Ataque", "descricao": "Faz o inimigo errar a defesa.", "custo": ["chakra"]},
+    {"nome": "Estocada Dupla", "descricao": "Ataque duplo com chance de crítico.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Karui",
+  "descricao": "Ninja da Nuvem e esposa de Choji.",
+  "categoria": "Shippuden",
+  "tags": ["espada", "velocidade"],
+  "habilidades": [
+    {"nome": "Investida Furiosa", "descricao": "Avanço com golpe cortante veloz.", "custo": ["chakra"]},
+    {"nome": "Defesa Agressiva", "descricao": "Contra-ataca automaticamente ao ser atingida.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Cee (C)",
+  "descricao": "Ninja sensorial e curandeiro da Nuvem.",
+  "categoria": "Shippuden",
+  "tags": ["sensorial", "cura"],
+  "habilidades": [
+    {"nome": "Confusão Mental", "descricao": "Faz inimigos atacarem uns aos outros.", "custo": ["chakra"]},
+    {"nome": "Canalização de Cura", "descricao": "Cura gradual em aliados por 2 turnos.", "custo": ["cura"]}
+  ]
+},
+{
+  "nome": "Ao (Edo)",
+  "descricao": "Ninja da Névoa com Byakugan transplantado.",
+  "categoria": "Reanimated",
+  "tags": ["byakugan", "ninjutsu"],
+  "habilidades": [
+    {"nome": "Análise de Chakra", "descricao": "Vê pontos fracos e reduz defesa inimiga.", "custo": ["chakra"]},
+    {"nome": "Explosivo de Braço", "descricao": "Ataque surpresa escondido no braço mecânico.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Utakata",
+  "descricao": "Jinchuuriki da Besta Seis Caudas, usa bolhas corrosivas.",
+  "categoria": "Jinchuuriki",
+  "tags": ["bolhas", "ácido"],
+  "habilidades": [
+    {"nome": "Bolhas Ácidas", "descricao": "Causa dano e reduz defesa por 2 turnos.", "custo": ["chakra"]},
+    {"nome": "Transformação Seis Caudas", "descricao": "Aumenta todo o ataque por 2 turnos.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Han",
+  "descricao": "Jinchuuriki da Besta Cinco Caudas, mestre em vapor e força.",
+  "categoria": "Jinchuuriki",
+  "tags": ["vapor", "taijutsu"],
+  "habilidades": [
+    {"nome": "Explosão de Vapor", "descricao": "Dano em área liberando vapor corporal.", "custo": ["chakra"]},
+    {"nome": "Armadura de Pressão", "descricao": "Reduz todo o dano recebido por 1 turno.", "custo": ["chakra"]}
+  ]
+}
+,
+{
+  "nome": "Fuu",
+  "descricao": "Jinchuuriki da Besta Sete Caudas, especialista em armadilhas aéreas.",
+  "categoria": "Jinchuuriki",
+  "tags": ["voo", "armadilha"],
+  "habilidades": [
+    {"nome": "Ataque Voador", "descricao": "Dano em área com velocidade elevada.", "custo": ["chakra"]},
+    {"nome": "Semente de Inseto", "descricao": "Paralisa inimigo com armadilha explosiva.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Roshi",
+  "descricao": "Jinchuuriki da Besta Quatro Caudas, mestre do Estilo Lava.",
+  "categoria": "Jinchuuriki",
+  "tags": ["lava", "força"],
+  "habilidades": [
+    {"nome": "Punho de Lava", "descricao": "Soco flamejante de alto impacto.", "custo": ["chakra"]},
+    {"nome": "Explosão de Magma", "descricao": "Dano massivo com risco de recuo.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Yugito Nii",
+  "descricao": "Jinchuuriki da Besta Duas Caudas, usuária de fogo azul.",
+  "categoria": "Jinchuuriki",
+  "tags": ["fogo", "chamas"],
+  "habilidades": [
+    {"nome": "Bola de Fogo Azul", "descricao": "Ataque que ignora defesas comuns.", "custo": ["chakra"]},
+    {"nome": "Modo Matatabi", "descricao": "Aumenta velocidade e dano por 2 turnos.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Torune Aburame",
+  "descricao": "Ninja da Raiz que usa insetos venenosos.",
+  "categoria": "Especial",
+  "tags": ["veneno", "inseto"],
+  "habilidades": [
+    {"nome": "Insetos Nanoscópicos", "descricao": "Dano contínuo e penalidade de cura.", "custo": ["chakra"]},
+    {"nome": "Toque Mortal", "descricao": "Ataque corpo a corpo que infecta gravemente.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Shibi Aburame",
+  "descricao": "Pai de Shino, mestre silencioso dos insetos.",
+  "categoria": "Clássico",
+  "tags": ["estratégia", "inseto"],
+  "habilidades": [
+    {"nome": "Nuvem de Insetos", "descricao": "Reduz visão e dano inimigo.", "custo": ["chakra"]},
+    {"nome": "Vórtice de Chakra", "descricao": "Rouba chakra em área.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Samui",
+  "descricao": "Ninja calma e calculista da Nuvem.",
+  "categoria": "Shippuden",
+  "tags": ["relâmpago", "precisão"],
+  "habilidades": [
+    {"nome": "Lâmina de Relâmpago", "descricao": "Ataque concentrado com chance de crítico.", "custo": ["chakra"]},
+    {"nome": "Finta Precisa", "descricao": "Ignora bloqueio do inimigo por 1 turno.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Ameyuri Ringo",
+  "descricao": "Espadachim da Névoa com espadas de raio.",
+  "categoria": "Especial",
+  "tags": ["espada", "relâmpago"],
+  "habilidades": [
+    {"nome": "Estilo Trovão Duplo", "descricao": "Ataque em dois inimigos simultaneamente.", "custo": ["chakra"]},
+    {"nome": "Carga Elétrica", "descricao": "Atordoa inimigo por 1 turno.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Guren",
+  "descricao": "Usuária do Estilo Cristal, vista em OVAs de Naruto.",
+  "categoria": "OVA",
+  "tags": ["cristal", "selamento"],
+  "habilidades": [
+    {"nome": "Prisão de Cristal", "descricao": "Imobiliza completamente o inimigo.", "custo": ["chakra"]},
+    {"nome": "Rajada de Estilhaços", "descricao": "Explosão de cristais em área.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Shizune",
+  "descricao": "Assistente de Tsunade e ninja médica especializada.",
+  "categoria": "Clássico",
+  "tags": ["cura", "veneno"],
+  "habilidades": [
+    {"nome": "Antídoto Rápido", "descricao": "Remove efeitos negativos de aliados.", "custo": ["cura"]},
+    {"nome": "Agulhas Envenenadas", "descricao": "Dano leve e veneno por 2 turnos.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Pakura",
+  "descricao": "Usuária do Estilo Calor, ressuscitada em guerras.",
+  "categoria": "Reanimated",
+  "tags": ["explosão", "fogo"],
+  "habilidades": [
+    {"nome": "Estilo Calor: Evaporação", "descricao": "Derrete armadura inimiga.", "custo": ["chakra"]},
+    {"nome": "Chamas Verdejantes", "descricao": "Dano extra em inimigos com escudo ativo.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Gari",
+  "descricao": "Usuário do Estilo Explosão, mestre em combate corpo a corpo.",
+  "categoria": "Reanimated",
+  "tags": ["explosão", "mão"],
+  "habilidades": [
+    {"nome": "Toque Explosivo", "descricao": "Explosão de contato com muito dano.", "custo": ["chakra"]},
+    {"nome": "Estouro Abrangente", "descricao": "Causa dano a todos ao redor.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Iruka Umino",
+  "descricao": "Professor da Academia e mentor de Naruto.",
+  "categoria": "Clássico",
+  "tags": ["suporte", "motivação"],
+  "habilidades": [
+    {"nome": "Discurso Inspirador", "descricao": "Aumenta chakra de todos os aliados.", "custo": ["cura"]},
+    {"nome": "Defesa Protetora", "descricao": "Recebe o dano do aliado alvo por 1 turno.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Ebisu",
+  "descricao": "Instrutor elitista da vila, especialista em fundamentos.",
+  "categoria": "Clássico",
+  "tags": ["suporte", "restrição"],
+  "habilidades": [
+    {"nome": "Bloqueio de Chakra", "descricao": "Impede o uso de habilidades avançadas.", "custo": ["chakra"]},
+    {"nome": "Instrução Técnica", "descricao": "Aumenta defesa do aliado por 2 turnos.", "custo": ["cura"]}
+  ]
+}
+,
+{
+  "nome": "Hagoromo Otsutsuki",
+  "descricao": "Sábio dos Seis Caminhos, criador do ninshu.",
+  "categoria": "Lendário",
+  "tags": ["rinnegan", "sábio"],
+  "habilidades": [
+    {"nome": "Bolas da Verdade", "descricao": "Ignora defesa, dano massivo.", "custo": ["chakra", "chakra"]},
+    {"nome": "Jutsu da Criação", "descricao": "Revive um aliado com metade da vida.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Hamura Otsutsuki",
+  "descricao": "Irmão de Hagoromo, especialista em selamento lunar.",
+  "categoria": "Lendário",
+  "tags": ["selamento", "byakugan"],
+  "habilidades": [
+    {"nome": "Selo Lunar", "descricao": "Impede ação de todos os inimigos por 1 turno.", "custo": ["chakra", "chakra"]},
+    {"nome": "Explosão Sagrada", "descricao": "Ataque em área de pura energia.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Toneri Otsutsuki",
+  "descricao": "Antagonista do filme ‘The Last’, usa Byakugan aprimorado.",
+  "categoria": "Filme",
+  "tags": ["luz", "espada"],
+  "habilidades": [
+    {"nome": "Espada de Luz", "descricao": "Ataque cortante que atravessa defesa.", "custo": ["chakra"]},
+    {"nome": "Técnica Lunar", "descricao": "Retira chakra do inimigo por 2 turnos.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Shikaku Nara",
+  "descricao": "Pai de Shikamaru, estrategista lendário.",
+  "categoria": "Clássico",
+  "tags": ["sombra", "tática"],
+  "habilidades": [
+    {"nome": "Estratégia Superior", "descricao": "Prevê ação inimiga e esquiva por 1 turno.", "custo": ["chakra"]},
+    {"nome": "Prisão de Sombra Avançada", "descricao": "Imobiliza 2 inimigos simultaneamente.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Inoichi Yamanaka",
+  "descricao": "Pai de Ino, ninja sensorial com comunicação de longo alcance.",
+  "categoria": "Clássico",
+  "tags": ["sensorial", "espírito"],
+  "habilidades": [
+    {"nome": "Vínculo Mental", "descricao": "Coordena ataques aliados com precisão.", "custo": ["chakra"]},
+    {"nome": "Controle Espiritual", "descricao": "Possui temporariamente o inimigo.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Choza Akimichi",
+  "descricao": "Pai de Choji, mestre em técnicas de expansão.",
+  "categoria": "Clássico",
+  "tags": ["expansão", "força"],
+  "habilidades": [
+    {"nome": "Modo Gigante", "descricao": "Dano massivo, mas lento no turno seguinte.", "custo": ["chakra"]},
+    {"nome": "Soco Demolidor", "descricao": "Ignora defesa se aliado estiver com pouca vida.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Shikadai Nara",
+  "descricao": "Filho de Shikamaru, tático como o pai.",
+  "categoria": "Boruto",
+  "tags": ["sombra", "estratégia"],
+  "habilidades": [
+    {"nome": "Prisão de Sombra Rápida", "descricao": "Imobiliza e reduz dano do inimigo.", "custo": ["chakra"]},
+    {"nome": "Contra-Tática", "descricao": "Anula a próxima habilidade inimiga.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Metal Lee",
+  "descricao": "Filho de Rock Lee, mestre em taijutsu com nervosismo crônico.",
+  "categoria": "Boruto",
+  "tags": ["taijutsu", "velocidade"],
+  "habilidades": [
+    {"nome": "Rajada de Socos", "descricao": "Ataques múltiplos, chance de errar.", "custo": ["chakra"]},
+    {"nome": "Explosão de Energia", "descricao": "Dano crítico quando abaixo de 50% de vida.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Mirai Sarutobi",
+  "descricao": "Filha de Asuma e Kurenai, mestra em Genjutsu.",
+  "categoria": "Boruto",
+  "tags": ["genjutsu", "espada"],
+  "habilidades": [
+    {"nome": "Miragem de Lâmina", "descricao": "Causa ilusão e dano ao mesmo tempo.", "custo": ["chakra"]},
+    {"nome": "Meditação Espiritual", "descricao": "Recupera chakra e evita dano por 1 turno.", "custo": ["cura"]}
+  ]
+},
+{
+  "nome": "Sumire Kakei",
+  "descricao": "Estudante da geração Boruto com poder do Nue.",
+  "categoria": "Boruto",
+  "tags": ["invocação", "chakra"],
+  "habilidades": [
+    {"nome": "Liberação do Nue", "descricao": "Inimigo perde chakra ao ser atingido.", "custo": ["chakra"]},
+    {"nome": "Barreira de Tinta", "descricao": "Reduz dano recebido em área.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Denki Kaminarimon",
+  "descricao": "Gênio tecnológico da nova geração.",
+  "categoria": "Boruto",
+  "tags": ["engenharia", "suporte"],
+  "habilidades": [
+    {"nome": "Jutsu Eletrônico", "descricao": "Causa dano baseado na energia do campo.", "custo": ["chakra"]},
+    {"nome": "Turbinador Ninja", "descricao": "Aumenta velocidade dos aliados.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Iwabe Yuino",
+  "descricao": "Usuário de Estilo Terra e antigo repetente da academia.",
+  "categoria": "Boruto",
+  "tags": ["terra", "força"],
+  "habilidades": [
+    {"nome": "Martelo de Rocha", "descricao": "Ataque pesado com chance de atordoar.", "custo": ["chakra"]},
+    {"nome": "Pilar Emergente", "descricao": "Impede movimentação do inimigo por 1 turno.", "costo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Wasabi Izuno",
+  "descricao": "Usuária da Técnica Felina do Clã Izuno.",
+  "categoria": "Boruto",
+  "tags": ["felina", "agilidade"],
+  "habilidades": [
+    {"nome": "Modo Felino", "descricao": "Aumenta evasão e chance de ataque duplo.", "custo": ["chakra"]},
+    {"nome": "Garra Crescente", "descricao": "Ataque rápido com dano acumulativo.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Namida Suzumeno",
+  "descricao": "Ninja da Névoa com jutsu do Grito Supersônico.",
+  "categoria": "Boruto",
+  "tags": ["som", "controle"],
+  "habilidades": [
+    {"nome": "Grito Supersônico", "descricao": "Silencia habilidades por 1 turno.", "custo": ["chakra"]},
+    {"nome": "Eco Disruptivo", "descricao": "Causa dano extra se inimigo estiver em grupo.", "custo": ["chakra"]}
+  ]
+}
+,
+{
+  "nome": "Kaguya Otsutsuki",
+  "descricao": "A progenitora do chakra, ameaça final do mundo shinobi.",
+  "categoria": "Lendário",
+  "tags": ["dimensão", "chakra"],
+  "habilidades": [
+    {"nome": "Portais Dimensionais", "descricao": "Teleporta e evita o próximo ataque.", "custo": ["chakra"]},
+    {"nome": "Expansão de Cinzas", "descricao": "Dano devastador em área total.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Momoshiki Otsutsuki",
+  "descricao": "Inimigo de Boruto, absorve jutsus e os devolve amplificados.",
+  "categoria": "Otsutsuki",
+  "tags": ["absorção", "explosão"],
+  "habilidades": [
+    {"nome": "Absorção de Chakra", "descricao": "Ignora ataque e carrega dano extra.", "custo": ["chakra"]},
+    {"nome": "Explosão Divina", "descricao": "Dano em área redirecionado de absorção.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Kinshiki Otsutsuki",
+  "descricao": "Parceiro de Momoshiki, força bruta e armas de chakra.",
+  "categoria": "Otsutsuki",
+  "tags": ["força", "chakra"],
+  "habilidades": [
+    {"nome": "Machado de Chakra", "descricao": "Ataque frontal destrutivo.", "custo": ["chakra"]},
+    {"nome": "Impacto Brutal", "descricao": "Chance de quebrar defesa inimiga.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Urashiki Otsutsuki",
+  "descricao": "Caçador do tempo, usa Rinnegan azul e pesca chakra.",
+  "categoria": "Otsutsuki",
+  "tags": ["roubo", "tempo"],
+  "habilidades": [
+    {"nome": "Isca Temporal", "descricao": "Pula o turno inimigo e rouba chakra.", "custo": ["chakra"]},
+    {"nome": "Barreira Reversa", "descricao": "Reflete jutsu inimigo uma vez.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Sasuke Uchiha (Adulto)",
+  "descricao": "Nômade de Konoha, mestre do Rinnegan e espada.",
+  "categoria": "Boruto",
+  "tags": ["espada", "rinnegan"],
+  "habilidades": [
+    {"nome": "Amenotejikara", "descricao": "Troca de lugar com qualquer objeto e ataca.", "custo": ["chakra"]},
+    {"nome": "Kirin Evoluído", "descricao": "Chuva de raios devastadora.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Naruto Uzumaki (Modo Baryon)",
+  "descricao": "Forma máxima, com energia vital em fusão com Kurama.",
+  "categoria": "Boruto",
+  "tags": ["baryon", "chakra"],
+  "habilidades": [
+    {"nome": "Impacto Vital", "descricao": "Ataque que reduz a energia vital do inimigo.", "custo": ["chakra", "chakra"]},
+    {"nome": "Explosão da Raposa", "descricao": "Golpe final massivo, mas consome vida.", "custo": ["chakra", "cura"]}
+  ]
+},
+{
+  "nome": "Delta",
+  "descricao": "Ciborgue da Kara, usa tecnologia e regeneração avançada.",
+  "categoria": "Boruto",
+  "tags": ["tecnologia", "regen"],
+  "habilidades": [
+    {"nome": "Raio Destrutivo", "descricao": "Ataque direto que ignora regeneração inimiga.", "custo": ["chakra"]},
+    {"nome": "Regeneração Instantânea", "descricao": "Recupera vida total uma vez por luta.", "custo": ["cura"]}
+  ]
+},
+{
+  "nome": "Kawaki",
+  "descricao": "Portador do Karma, treinado por Jigen.",
+  "categoria": "Boruto",
+  "tags": ["karma", "mutação"],
+  "habilidades": [
+    {"nome": "Braço Expandido", "descricao": "Ataque físico moldável, ignora evasão.", "custo": ["chakra"]},
+    {"nome": "Modo Karma", "descricao": "Aumenta poder geral por 2 turnos.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Boruto Uzumaki (Karma)",
+  "descricao": "Portador do Karma herdado de Momoshiki.",
+  "categoria": "Boruto",
+  "tags": ["karma", "chakra"],
+  "habilidades": [
+    {"nome": "Rasengan Comprimido", "descricao": "Rasengan de precisão e impacto explosivo.", "custo": ["chakra"]},
+    {"nome": "Modo Karma", "descricao": "Amplifica todos os atributos temporariamente.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Sarada Uchiha (Sharingan 3T)",
+  "descricao": "Filha de Sasuke e Sakura, desperta o poder ocular total.",
+  "categoria": "Boruto",
+  "tags": ["sharingan", "estratégia"],
+  "habilidades": [
+    {"nome": "Chidori Perfurante", "descricao": "Ataque veloz e preciso.", "custo": ["chakra"]},
+    {"nome": "Leitura de Movimentos", "descricao": "Prevê ação inimiga e esquiva.", "custo": ["chakra"]}
+  ]
+}
+,
+{
+  "nome": "Code",
+  "descricao": "Último agente da Kara, portador do Karma Branco.",
+  "categoria": "Boruto",
+  "tags": ["karma", "armadilha"],
+  "habilidades": [
+    {"nome": "Garras de Código", "descricao": "Ataque que prende e causa sangramento.", "custo": ["chakra"]},
+    {"nome": "Marca de Garra", "descricao": "Teleporta para armadilhas deixadas no campo.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Eida",
+  "descricao": "Aliada de Code, manipula emoções com Senrigan.",
+  "categoria": "Boruto",
+  "tags": ["manipulação", "visão"],
+  "habilidades": [
+    {"nome": "Encantamento", "descricao": "Inimigos não conseguem atacar por 1 turno.", "custo": ["chakra"]},
+    {"nome": "Senrigan", "descricao": "Revela toda a estratégia inimiga.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Daemon",
+  "descricao": "Irmão de Eida, reflete ataques instintivamente.",
+  "categoria": "Boruto",
+  "tags": ["reflexo", "instinto"],
+  "habilidades": [
+    {"nome": "Reflexo Letal", "descricao": "Reflete o próximo ataque com dano dobrado.", "custo": ["chakra"]},
+    {"nome": "Ataque Sorrateiro", "descricao": "Causa dano oculto antes do turno inimigo.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Boro",
+  "descricao": "Cientista da Kara, usa vírus e regeneração.",
+  "categoria": "Boruto",
+  "tags": ["vírus", "regeneração"],
+  "habilidades": [
+    {"nome": "Névoa Viral", "descricao": "Dano contínuo em área.", "custo": ["chakra"]},
+    {"nome": "Recuperação Viral", "descricao": "Cura proporcional ao dano causado.", "custo": ["cura"]}
+  ]
+},
+{
+  "nome": "Koji Kashin",
+  "descricao": "Clone de Jiraiya criado pela Kara, usa jutsus clássicos.",
+  "categoria": "Boruto",
+  "tags": ["invocação", "fogo"],
+  "habilidades": [
+    {"nome": "Jutsu dos Sapos", "descricao": "Invoca sapo que ataca por 2 turnos.", "custo": ["chakra"]},
+    {"nome": "Chama Real", "descricao": "Fogo eterno que ignora defesas.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Shinki",
+  "descricao": "Filho adotivo de Gaara, mestre da areia de ferro.",
+  "categoria": "Boruto",
+  "tags": ["areia", "controle"],
+  "habilidades": [
+    {"nome": "Lança de Ferro", "descricao": "Ataque com chance de paralisar.", "custo": ["chakra"]},
+    {"nome": "Escudo de Areia de Ferro", "descricao": "Defende aliado por 1 turno.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Himawari Uzumaki",
+  "descricao": "Filha de Naruto, Byakugan desperto.",
+  "categoria": "Boruto",
+  "tags": ["byakugan", "suporte"],
+  "habilidades": [
+    {"nome": "Soco Gentil", "descricao": "Causa dano e reduz chakra do inimigo.", "custo": ["chakra"]},
+    {"nome": "Aura Protetora", "descricao": "Cura leve e escudo para um aliado.", "custo": ["cura"]}
+  ]
+},
+{
+  "nome": "Moegi Kazamatsuri",
+  "descricao": "Usuária do Estilo Madeira da nova geração.",
+  "categoria": "Boruto",
+  "tags": ["madeira", "suporte"],
+  "habilidades": [
+    {"nome": "Raízes Restritivas", "descricao": "Prende inimigo por 1 turno.", "custo": ["chakra"]},
+    {"nome": "Barreira Natural", "descricao": "Diminui dano de ataques em área.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Udon Ise",
+  "descricao": "Chunin da nova geração, usa jutsus baseados em muco.",
+  "categoria": "Boruto",
+  "tags": ["água", "suporte"],
+  "habilidades": [
+    {"nome": "Jato Pegajoso", "descricao": "Reduz velocidade do inimigo.", "custo": ["chakra"]},
+    {"nome": "Armamento de Gosma", "descricao": "Dano leve + desarme do inimigo.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Kurotsuchi",
+  "descricao": "Tsuchikage da Vila da Pedra, usa técnicas de Lava e Terra.",
+  "categoria": "Shippuden",
+  "tags": ["lava", "terra"],
+  "habilidades": [
+    {"nome": "Lava Adesiva", "descricao": "Prende inimigos ao chão.", "custo": ["chakra"]},
+    {"nome": "Domínio Rochoso", "descricao": "Ataca com colunas de pedra.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Darui (Raikage)",
+  "descricao": "Raikage da Vila da Nuvem na era Boruto.",
+  "categoria": "Boruto",
+  "tags": ["relâmpago", "estratégia"],
+  "habilidades": [
+    {"nome": "Pantera Negra", "descricao": "Dano crítico em inimigos com escudo.", "custo": ["chakra"]},
+    {"nome": "Estilo Relâmpago Silencioso", "descricao": "Ataque furtivo com chance de crítico.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Chojuro (Mizukage)",
+  "descricao": "Líder da Vila da Névoa, mestre espadachim.",
+  "categoria": "Boruto",
+  "tags": ["espada", "água"],
+  "habilidades": [
+    {"nome": "Hiramekarei: Modo Explosão", "descricao": "Ataque massivo com chakra acumulado.", "custo": ["chakra", "chakra"]},
+    {"nome": "Guarda da Névoa", "descricao": "Defende aliado e contra-ataca.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Katasuke Tono",
+  "descricao": "Cientista responsável pelas Ferramentas Ninja Científicas.",
+  "categoria": "Boruto",
+  "tags": ["tecnologia", "suporte"],
+  "habilidades": [
+    {"nome": "Ferramenta de Disparo", "descricao": "Causa dano conforme a arma equipada.", "custo": ["chakra"]},
+    {"nome": "Upgrade Instantâneo", "descricao": "Dá uma ação extra a um aliado.", "costo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Sumire (Modo Nue)",
+  "descricao": "Forma avançada de Sumire em sincronia total com Nue.",
+  "categoria": "Boruto",
+  "tags": ["invocação", "chakra"],
+  "habilidades": [
+    {"nome": "Barreira Dimensional", "descricao": "Impede todos os ataques por 1 turno.", "custo": ["chakra", "chakra"]},
+    {"nome": "Nue Enfurecido", "descricao": "Dano massivo baseado em chakra restante.", "custo": ["chakra"]}
+  ]
+}
+,
+{
+  "nome": "Naruto (Sábio dos Seis Caminhos)",
+  "descricao": "Forma divina obtida na guerra, poder supremo de luz.",
+  "categoria": "Lendário",
+  "tags": ["cura", "chakra"],
+  "habilidades": [
+    {"nome": "Modo Sábio Supremo", "descricao": "Dano em área e recuperação total.", "custo": ["chakra", "cura"]},
+    {"nome": "Rasenshuriken de Luz", "descricao": "Ignora defesas e afeta múltiplos alvos.", "costo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Sasuke (Rinnegan Supremo)",
+  "descricao": "Forma final, domina espaço-tempo e estratégia.",
+  "categoria": "Lendário",
+  "tags": ["estratégia", "chakra"],
+  "habilidades": [
+    {"nome": "Salto Temporal", "descricao": "Evita dano e ataca antes do inimigo.", "custo": ["chakra"]},
+    {"nome": "Chidori Dimensional", "descricao": "Ataque que atravessa barreiras.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Itachi (Reanimação)",
+  "descricao": "Forma pós-morte, com Susanoo completo.",
+  "categoria": "Reanimated",
+  "tags": ["genjutsu", "susanoo"],
+  "habilidades": [
+    {"nome": "Espada Totsuka", "descricao": "Selamento eterno de um inimigo.", "custo": ["chakra", "chakra"]},
+    {"nome": "Yata no Kagami", "descricao": "Bloqueia todo dano por 1 turno.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Nagato (Reanimação)",
+  "descricao": "Corpo completo com poderes dos Seis Caminhos.",
+  "categoria": "Reanimated",
+  "tags": ["rinnegan", "invocação"],
+  "habilidades": [
+    {"nome": "Chibaku Tensei", "descricao": "Prende todos os inimigos por 1 turno.", "custo": ["chakra", "chakra"]},
+    {"nome": "Absorção de Alma", "descricao": "Rouba chakra e cura proporcional.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Minato (Modo Kurama)",
+  "descricao": "Revive com chakra da Kyubi, rápido como a luz.",
+  "categoria": "Reanimated",
+  "tags": ["teleporte", "chakra"],
+  "habilidades": [
+    {"nome": "Hiraishin: Modo Kurama", "descricao": "Ataque instantâneo em todos os inimigos.", "custo": ["chakra"]},
+    {"nome": "Selo da Liberação", "descricao": "Restaura chakra de todos os aliados.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Kushina Uzumaki",
+  "descricao": "Mãe de Naruto, chakra acorrentado e imensa força.",
+  "categoria": "Especial",
+  "tags": ["selamento", "correntes"],
+  "habilidades": [
+    {"nome": "Correntes de Selamento", "descricao": "Paralisa e impede recarga de chakra.", "custo": ["chakra"]},
+    {"nome": "Fúria da Mãe", "descricao": "Dano dobrado contra usuários de Bijuu.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Obito (Jinchuuriki)",
+  "descricao": "Forma final com as Dez Caudas, quase invencível.",
+  "categoria": "Lendário",
+  "tags": ["dez caudas", "chakra"],
+  "habilidades": [
+    {"nome": "Explosão da Verdade", "descricao": "Dano letal em todos os inimigos.", "custo": ["chakra", "chakra"]},
+    {"nome": "Regeneração Absoluta", "descricao": "Cura total e bloqueia dano por 1 turno.", "custo": ["cura"]}
+  ]
+},
+{
+  "nome": "Madara (Rikudou)",
+  "descricao": "Forma máxima com Rinnegan, Dez Caudas e Susanoo.",
+  "categoria": "Lendário",
+  "tags": ["chakra", "susanoo"],
+  "habilidades": [
+    {"nome": "Limbo", "descricao": "Ataca com clones invisíveis.", "custo": ["chakra"]},
+    {"nome": "Susanoo Final", "descricao": "Dano em área, atravessa defesas.", "custo": ["chakra", "chakra"]}
+  ]
+},
+{
+  "nome": "Konohamaru (Boruto)",
+  "descricao": "Jounin e sucessor da Vontade de Fogo.",
+  "categoria": "Boruto",
+  "tags": ["rasengan", "fogo"],
+  "habilidades": [
+    {"nome": "Rasengan Flamejante", "descricao": "Ataque com chance de queimar o inimigo.", "custo": ["chakra"]},
+    {"nome": "Punição Ninja", "descricao": "Aumenta dano se aliado estiver inconsciente.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Sakura (Boruto)",
+  "descricao": "Mestre em Taijutsu e regeneração celular avançada.",
+  "categoria": "Boruto",
+  "tags": ["força", "cura"],
+  "habilidades": [
+    {"nome": "Soco de Chakra", "descricao": "Causa dano massivo.", "custo": ["chakra"]},
+    {"nome": "Células de Tsunade", "descricao": "Regenera HP de todos os aliados.", "custo": ["cura"]}
+  ]
+},
+{
+  "nome": "Rock Lee (Adulto)",
+  "descricao": "Mestre em taijutsu, herdou o estilo do Gai.",
+  "categoria": "Boruto",
+  "tags": ["taijutsu", "agilidade"],
+  "habilidades": [
+    {"nome": "Abertura dos Portões", "descricao": "Dano duplo por 2 turnos (perde vida).", "custo": ["chakra", "cura"]},
+    {"nome": "Chute Dinâmico", "descricao": "Dano crítico com chance de stun.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Mei Terumi",
+  "descricao": "Mizukage da Névoa, usuária dos estilos Lava e Vapor.",
+  "categoria": "Shippuden",
+  "tags": ["lava", "vapor"],
+  "habilidades": [
+    {"nome": "Névoa Ácida", "descricao": "Ignora defesa e reduz ataque inimigo.", "custo": ["chakra"]},
+    {"nome": "Lava Corrosiva", "descricao": "Dano em área que persiste por 2 turnos.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Ao",
+  "descricao": "Ninja sensorial da Névoa, usa byakugan transplantado.",
+  "categoria": "Shippuden",
+  "tags": ["sensorial", "estratégia"],
+  "habilidades": [
+    {"nome": "Olhar Profundo", "descricao": "Prevê jutsus e reduz dano recebido.", "custo": ["chakra"]},
+    {"nome": "Explosão Oculta", "descricao": "Causa dano extra se ativado após defesa.", "custo": ["chakra"]}
+  ]
+},
+{
+  "nome": "Filler Hero (Evento)",
+  "descricao": "Personagem exclusivo de eventos do Super Arena.",
+  "categoria": "Evento",
+  "tags": ["evento", "aleatório"],
+  "habilidades": [
+    {"nome": "Surpresa de Arena", "descricao": "Habilidade aleatória entre 3 jutsus únicos.", "custo": ["chakra"]},
+    {"nome": "Explosão de Festival", "descricao": "Dano em área com chance de bônus raro.", "custo": ["chakra", "chakra"]}
+  ]
+}

@@ -1,0 +1,361 @@
+<?php
+/*
+Plugin Name: Super Arena (Ultimate)
+Description: Naruto Arena com 180+ personagens, missões, PvP e Elementor.
+Version: 3.0
+Author: Super Arena Team
+*/
+
+define('SA_URL', plugin_dir_url(__FILE__));
+define('SA_PATH', plugin_dir_path(__FILE__));
+
+// Assets
+add_action('wp_enqueue_scripts', function(){
+  wp_enqueue_style('sa-style', SA_URL.'assets/super-arena.css',[], '3.0');
+  wp_enqueue_script('socketio', 'https://cdn.socket.io/4.7.5/socket.io.min.js', [], null, true);
+  wp_enqueue_script('sa-js', SA_URL.'assets/super-arena.js',['jquery','socketio'],'3.0', true);
+  wp_localize_script('sa-js','superArenaData',[
+    'ajaxUrl'=>admin_url('admin-ajax.php'),
+    'nonce'=>wp_create_nonce('sa_nonce'),
+    'userId'=>get_current_user_id(),
+    'pvpServer'=>'https://seu-servidor-pvp.com:3000'
+  ]);
+});
+
+// Proteção de página
+add_action('template_redirect', function(){
+  if(!is_user_logged_in() && !is_page('pagina-de-inicio')){
+    wp_redirect(home_url('/pagina-de-inicio')); exit;
+  }
+});
+
+// Carrega personagens
+function sa_characters(){
+  static $chars=null;
+  if(!$chars){
+    $chars = json_decode(file_get_contents(SA_PATH.'personagens_ultimate.json'), true);
+  }
+  return $chars;
+}
+
+// Missões
+function sa_check_missions($user_id){
+  $progress = get_user_meta($user_id,'sa_progress',true); if(!$progress)$progress=[];
+  $stats = get_user_meta($user_id,'sa_stats',true); if(!$stats)$stats=['play'=>0,'clicks'=>0,'wins'=>0];
+
+  if($stats['play']>=300) $progress['Sasuke Uchiha']=true;
+  if($stats['wins']>=5) $progress['Kakashi Hatake']=true;
+  if($stats['clicks']>=200) $progress['Rock Lee']=true;
+
+  update_user_meta($user_id,'sa_progress',$progress);
+  return $progress;
+}
+
+// Atualização via AJAX
+add_action('wp_ajax_super_arena_update_stats', function(){
+  check_ajax_referer('sa_nonce','nonce');
+  $uid=get_current_user_id(); if(!$uid) wp_die();
+  $seconds=intval($_POST['seconds']); $clicks=intval($_POST['clicks']); $wins=intval($_POST['wins']);
+
+  $stats=get_user_meta($uid,'sa_stats',true); if(!$stats)$stats=['play'=>0,'clicks'=>0,'wins'=>0];
+  $stats['play']+=$seconds;
+  $stats['clicks']+=$clicks;
+  $stats['wins']+=$wins;
+  update_user_meta($uid,'sa_stats',$stats);
+
+  sa_check_missions($uid);
+  wp_send_json_success($stats);
+});
+
+// Shortcode
+add_shortcode('super_arena', function($atts){
+  if(!is_user_logged_in()) return "<p>Faça login para jogar.</p>";
+  $uid=get_current_user_id();
+  $progress=sa_check_missions($uid);
+  $chars=sa_characters();
+
+  ob_start(); ?>
+  <div class="super-arena-ultimate">
+    <h2>Personagens Desbloqueados</h2>
+    <div class="grid"><?php
+      foreach($chars as $c){
+        if(!isset($progress[$c['nome']]))continue; ?>
+        <div class="personagem">
+          <h3><?=esc_html($c['nome']);?></h3>
+          <p><?=esc_html($c['descricao']);?></p>
+          <ul><?php foreach($c['habilidades'] as $h){ ?>
+            <li><strong><?=esc_html($h['nome']);?></strong>: <?=esc_html($h['descricao']);?> [<?=implode(', ', $h['custo']);?>]</li>
+          <?php } ?></ul>
+          <em><?=esc_html($c['categoria']);?></em>
+        </div><?php
+      } ?>
+    </div>
+  </div><?php
+  return ob_get_clean();
+});
+
+// Admin
+add_action('admin_menu', function(){
+  add_menu_page('Super Arena','Super Arena','manage_options','sa-admin','sa_admin_page','dashicons-sword',6);
+});
+function sa_admin_page(){
+  echo "<div class='wrap'><h1>Super Arena - Admin</h1>";
+  $users=get_users();
+  echo "<table class='widefat'><tr><th>User</th><th>Unlocked</th><th>Play(s)</th><th>Clicks</th><th>Wins</th></tr>";
+  foreach($users as $u){
+    $prog=get_user_meta($u->ID,'sa_progress',true); if(!$prog)$prog=[];
+    $stats=get_user_meta($u->ID,'sa_stats',true); if(!$stats)$stats=['play'=>0,'clicks'=>0,'wins'=>0];
+    echo "<tr><td>{$u->user_login}</td><td>".count($prog)."</td><td>{$stats['play']}</td><td>{$stats['clicks']}</td><td>{$stats['wins']}</td></tr>";
+  }
+  echo "</table></div>";
+}
+
+// Elementor
+add_action('elementor/widgets/register',function($mgr){
+  require_once SA_PATH.'widgets/class-super-arena-widget.php';
+  $mgr->register(new \\Super_Arena_Widget());
+});
+?>
+
+
+
+
+
+
+
+
+
+
+
+function super_arena_check_missions($user_id) {
+    $missions = [];
+
+    // Pega stats do jogador
+    $stats = get_user_meta($user_id, 'sa_stats', true);
+    if (!$stats) $stats = ["play" => 0, "wins" => 0, "clicks" => 0];
+
+    // Missões de exemplo
+    if ($stats['wins'] >= 5) {
+        $missions[] = "Kakashi";
+    }
+    if ($stats['play'] >= 10) {
+        $missions[] = "Rock Lee";
+    }
+    if ($stats['clicks'] >= 30) {
+        $missions[] = "Tenten";
+    }
+
+    return $missions;
+}
+
+
+
+
+
+
+
+
+
+
+
+function super_arena_is_unlocked($user_id, $char_name) {
+    $unlocked = get_user_meta($user_id, 'sa_progress', true);
+    if (!is_array($unlocked)) $unlocked = [];
+
+    // Missões completadas que liberam personagens
+    $auto_missions = super_arena_check_missions($user_id);
+    $unlocked = array_merge($unlocked, $auto_missions);
+
+    return in_array($char_name, $unlocked);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+function super_arena_unlock_character($user_id, $char_name) {
+    $current = get_user_meta($user_id, 'sa_progress', true);
+    if (!is_array($current)) $current = [];
+
+    if (!in_array($char_name, $current)) {
+        $current[] = $char_name;
+        update_user_meta($user_id, 'sa_progress', $current);
+    }
+}
+
+
+
+
+
+
+
+
+
+// Registrar widget Elementor do Super Arena
+add_action('elementor/widgets/register', function($widgets_manager){
+    require_once plugin_dir_path(__FILE__) . 'widgets/class-super-arena-widget.php';
+    $widgets_manager->register(new \Super_Arena_Widget());
+});
+
+
+
+
+
+
+
+
+// Cria o menu do painel admin
+add_action('admin_menu', function() {
+    add_menu_page('Super Arena', 'Super Arena', 'manage_options', 'super_arena_stats', 'super_arena_stats_page', 'dashicons-chart-line', 3);
+});
+
+// Renderiza o painel com dados
+function super_arena_stats_page() {
+    echo '<div class="wrap"><h1>Super Arena - Painel do ADM</h1>';
+    $users = get_users();
+
+    echo "<table class='widefat'><thead><tr><th>Usuário</th><th>Personagens desbloqueados</th><th>Vitórias</th><th>Cliques</th><th>Jogos</th></tr></thead><tbody>";
+
+    foreach ($users as $u) {
+        $uid = $u->ID;
+        $user = $u->user_login;
+        $prog = get_user_meta($uid, 'sa_progress', true);
+        $stats = get_user_meta($uid, 'sa_stats', true);
+
+        if (!$prog) $prog = [];
+        if (!$stats) $stats = ['wins' => 0, 'clicks' => 0, 'play' => 0];
+
+        echo "<tr>
+            <td><strong>$user</strong></td>
+            <td>" . implode(', ', $prog) . "</td>
+            <td>{$stats['wins']}</td>
+            <td>{$stats['clicks']}</td>
+            <td>{$stats['play']}</td>
+        </tr>";
+    }
+
+    echo "</tbody></table></div>";
+}
+
+
+
+
+
+
+
+
+
+function super_arena_mission_list() {
+    return [
+        ["personagem" => "Kakashi", "missao" => "Ganhe 5 partidas"],
+        ["personagem" => "Rock Lee", "missao" => "Jogue 10 partidas"],
+        ["personagem" => "Tenten", "missao" => "Clique 30 vezes nos cards"],
+    ];
+}
+function super_arena_mission_list() {
+    return [
+        [ "personagem" => "Sasuke Uchiha", "missao" => "Ganhar 3 partidas" ],
+        [ "personagem" => "Kakashi Hatake", "missao" => "Ficar 5 minutos online" ],
+        [ "personagem" => "Rock Lee", "missao" => "Clicar em 10 personagens" ]
+        // Pode adicionar mais conforme quiser
+    ];
+}
+
+function super_arena_is_unlocked($user_id, $personagem) {
+    $progresso = get_user_meta($user_id, 'sa_progress', true);
+    if (!$progresso) return false;
+
+    return in_array($personagem, $progresso);
+}
+
+function super_arena_update_progress($user_id, $personagem) {
+    $progresso = get_user_meta($user_id, 'sa_progress', true);
+    if (!is_array($progresso)) $progresso = [];
+
+    if (!in_array($personagem, $progresso)) {
+        $progresso[] = $personagem;
+        update_user_meta($user_id, 'sa_progress', $progresso);
+    }
+}
+add_action('init', function() {
+    if (current_user_can('manage_options') && isset($_GET['liberar'])) {
+        $p = sanitize_text_field($_GET['liberar']);
+        super_arena_update_progress(get_current_user_id(), $p);
+        wp_redirect(remove_query_arg('liberar'));
+        exit;
+    }
+});
+
+
+
+
+
+
+
+add_action('wp_ajax_super_arena_click', 'super_arena_register_click');
+add_action('wp_ajax_nopriv_super_arena_click', '__return_false');
+
+function super_arena_register_click() {
+    if (!is_user_logged_in()) return;
+
+    $uid = get_current_user_id();
+    $stats = get_user_meta($uid, 'sa_stats', true);
+    if (!is_array($stats)) $stats = ["clicks" => 0, "wins" => 0, "play" => 0];
+
+    $stats['clicks'] += 1;
+    update_user_meta($uid, 'sa_stats', $stats);
+
+    // Verificar desbloqueio automático por missão
+    $missoes = super_arena_mission_list();
+    foreach ($missoes as $m) {
+        if ($m['personagem'] === "Rock Lee" && $stats['clicks'] >= 10) {
+            super_arena_update_progress($uid, "Rock Lee");
+        }
+    }
+
+    wp_die();
+}
+
+
+
+
+
+
+
+
+
+
+add_action('wp_enqueue_scripts', function() {
+    wp_enqueue_script('super-arena-js', plugin_dir_url(__FILE__) . 'assets/super-arena.js', [], false, true);
+});
+add_action('wp_ajax_super_arena_time', 'super_arena_register_time');
+add_action('wp_ajax_nopriv_super_arena_time', '__return_false');
+
+function super_arena_register_time() {
+    if (!is_user_logged_in()) return;
+
+    $uid = get_current_user_id();
+    $stats = get_user_meta($uid, 'sa_stats', true);
+    if (!is_array($stats)) $stats = ["clicks" => 0, "wins" => 0, "play" => 0];
+
+    $stats['play'] += 1; // 1 = 1 minuto online
+    update_user_meta($uid, 'sa_stats', $stats);
+
+    // Verificar desbloqueio automático por tempo
+    $missoes = super_arena_mission_list();
+    foreach ($missoes as $m) {
+        if ($m['personagem'] === "Kakashi Hatake" && $stats['play'] >= 5) {
+            super_arena_update_progress($uid, "Kakashi Hatake");
+        }
+    }
+
+    wp_die();
+}

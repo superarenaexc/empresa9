@@ -1,0 +1,60 @@
+<?php
+use Elementor\Widget_Base;
+use Elementor\Controls_Manager;
+
+class Super_Arena_Widget extends \Elementor\Widget_Base {
+
+    public function get_name() {
+        return 'super_arena';
+    }
+
+    public function get_title() {
+        return 'Super Arena';
+    }
+
+    public function get_icon() {
+        return 'eicon-lock-user';
+    }
+
+    public function get_categories() {
+        return ['general'];
+    }
+
+    public function render() {
+        $json = file_get_contents(plugin_dir_path(__FILE__) . '../personagens_ultimate.json');
+        $chars = json_decode($json, true);
+        $user_id = get_current_user_id();
+        echo '<div class="super-arena-ultimate">';
+
+        foreach ($chars as $char) {
+            $nome = $char['nome'];
+            $desc = esc_html($char['descricao']);
+            $img = strtolower(str_replace(" ", "-", $nome)); // ex: naruto-uzumaki
+            $liberado = super_arena_is_unlocked($user_id, $nome);
+
+            echo '<div class="char-card">';
+            echo "<img src='" . plugins_url("../assets/img/$img.png", __FILE__) . "' alt='$nome' class='char-img' />";
+            echo "<h3>$nome</h3>";
+            echo "<p>$desc</p>";
+
+            if ($liberado) {
+                echo "<span class='liberado'>✅ Desbloqueado</span>";
+            } else {
+                echo "<span class='bloqueado'>🔒 Missão necessária</span>";
+            }
+
+            echo '</div>';
+        }
+
+        // ✅ BLOCO DE MISSÕES VISUAIS AQUI
+        $missoes = super_arena_mission_list();
+        echo "<div class='missao-box'><h2>🔓 Missões para desbloquear</h2><ul>";
+        foreach ($missoes as $m) {
+            echo "<li><strong>{$m['personagem']}:</strong> {$m['missao']}</li>";
+        }
+        echo "</ul></div>";
+
+        echo '</div>';
+    }
+}
+?>

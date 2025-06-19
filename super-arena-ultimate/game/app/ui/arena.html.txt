@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Super Arena - Batalha</title>
+  <link rel="stylesheet" href="../../../../assets/super-arena.css">
+</head>
+<body>
+  <div class="super-arena-ultimate">
+    <h2>Escolha seus personagens para começar a batalha</h2>
+    <div class="grid">
+      <div class="personagem">
+        <h3>Naruto Uzumaki</h3>
+        <p>Um ninja determinado da Vila da Folha com a Raposa de Nove Caudas selada dentro dele.</p>
+        <ul>
+          <li><strong>Rasengan</strong>: Causa dano massivo ao oponente. [chakra, chakra]</li>
+          <li><strong>Clones das Sombras</strong>: Cria cópias para bloquear ataques. [chakra]</li>
+        </ul>
+        <em>Original</em>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

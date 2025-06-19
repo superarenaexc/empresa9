@@ -1,0 +1,50 @@
+jQuery(function($){
+  let playSeconds = 0;
+  let clickCount = 0;
+  let winCount = 0;
+
+  $(document).on('click', '.super-arena-ultimate', function(){
+    clickCount++;
+  });
+
+  setInterval(function(){
+    playSeconds += 10;
+    $.post(superArenaData.ajaxUrl, {
+      action: 'super_arena_update_stats',
+      nonce: superArenaData.nonce,
+      seconds: 10,
+      clicks: clickCount,
+      wins: 0
+    }, function(response){
+      console.log('Status enviado:', response);
+    });
+    clickCount = 0;
+  }, 10000);
+
+  const socket = io(superArenaData.pvpServer);
+  socket.on('connect', () => {
+    console.log('Conectado ao PvP!');
+  });
+});
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.char-card').forEach(function(card) {
+        card.addEventListener('click', function() {
+            fetch(window.location.origin + '/wp-admin/admin-ajax.php?action=super_arena_click', {
+                method: 'POST',
+                credentials: 'same-origin'
+            });
+        });
+    });
+});
+// Tempo online – envia a cada 60 segundos
+setInterval(function () {
+    fetch(window.location.origin + '/wp-admin/admin-ajax.php?action=super_arena_time', {
+        method: 'POST',
+        credentials: 'same-origin'
+    });
+}, 60000); // 60.000 ms = 1 minuto
